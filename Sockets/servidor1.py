@@ -15,3 +15,6 @@ while True:
         print('\nMensaje entrante:')
         print(buffer)
         print('Gracias por reportarse')
+        
+server_socket.close()
+#Para cerrar puerto de forma segura es: server_socket.close()

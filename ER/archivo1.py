@@ -19,3 +19,6 @@ textse = 'lazy'
 print(re.findall(textse,ch))  #retorna lista
 print(len(re.findall(textse,ch)))
 
+
+
+#search regresa el primer elemento de match y findall retrona una lista de matches
